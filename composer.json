@@ -1,0 +1,33 @@
+{
+    "name": "minii/captcha",
+    "type": "library",
+    "description": "minii captcha",
+    "keywords": [
+        "minii",
+        "captcha"
+    ],
+    "homepage": "https://github.com/hiqdev/minii-captcha",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/minii-captcha",
+        "issues": "https://github.com/hiqdev/minii-captcha/issues",
+        "wiki": "https://github.com/hiqdev/minii-captcha/wiki",
+        "forum": "http://forum.hiqdev.com/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "email": "sol@hiqdev.com",
+            "homepage": "http://hipanel.com/"
+        }
+    ],
+    "require": {
+        "minii/core": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\captcha\\": "src"
+        }
+    }
+}

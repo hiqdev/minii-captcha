@@ -1,0 +1,18 @@
+github:
+    name:           hiqdev/minii-captcha
+
+package:
+    type:           library
+    name:           captcha
+    namespace:      yii\captcha
+    src:            src
+    title:          minii captcha
+    keywords:       minii, captcha
+    description:    |
+        [minii](https://github.com/hiqdev/minii-core) is mini version of [Yii2](http://yiiframework.com/), supposed to be fully compatible.
+
+        This package provides yii\captcha.
+
+require:
+    hiqdev/hidev-php:   "*"
+    minii/hidev-vendor: "*"
